@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --ntasks=3
+#SBATCH --nodes=3
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=35
+#SBATCH --time=0-00:50:00
+#SBATCH --output=result%a
+#SBATCH --partition=parallel
+#SBATCH --mail-type=BEGIN,END
+
+module load anaconda
+module load java
+
+export NUM_PROCS=$SLURM_CPUS_PER_TASK
+export NUM_ARRAY=$SLURM_ARRAY_TASK_ID
+
+java -jar MIMICS_PA.jar
