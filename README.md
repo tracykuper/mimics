@@ -1,4 +1,6 @@
-# **M**ulti-scale model of **M**etabolism **In** **C**ellular **S**ystems
+# MiMICS
+
+**M**ulti-scale model of **M**etabolism **I**n **C**ellular **S**ystems
 
 Multi-scale Model of Metabolism In Cellular Systems, abbreviated MiMICS, is a computational framework executed in Python and Java to mechanistically simulate heterogeneous metabolism in microbial communities. MiMICS couples a genome-scale metabolic network reconstruction (GENRE) with the established platform Hybrid Automata Library (HAL) [1], which contains an agent-based model, and a continuum-scale reaction-diffusion model. GENREs are optimized using the COBRApy Python package. The metabolic models (Python) and HAL models (Java) are interfaced using a Py4J Gateway Server. MiMICS simulations can be performed using multiple computing nodes and central processing units to reduce computational time.  
 
