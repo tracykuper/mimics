@@ -15,4 +15,5 @@ Inputs into MiMICS allow the user to easily extend MiMICS to simulate multi-scal
 
 A key feature of MiMICS is the ability to incorporate multiple -omics data-integrated GENREs, which can represent unique intracellular metabolic states that yield different parameter values passed to the extracellular models. Incorporation of -omics data-integrated GENREs into MiMICS can result in a heterogeneous distribution of agents simulating different intracellular and extracellular metabolic processes, which may impact the fate of the biofilm. With the generation of spatially-resolved -omics data sets of heterogeneous multicellular communities, MiMICS is advantageous to incorporate this data to a) improve prediction accuracy of multicellular metabolic processes and b) gain new insight of mechanisms controlling metabolic state heterogeneity. 
 
+## References
 1. Bravo, R. R. et al. Hybrid Automata Library: A flexible platform for hybrid modeling with real-time visualization. PLoS Comput Biol 16, e1007635 (2020).
